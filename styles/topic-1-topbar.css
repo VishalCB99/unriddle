@@ -1,0 +1,21 @@
+.earthtopbar {
+  height: 50px;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  place-items: center;
+
+  background-color: black;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.brand-name {
+  height: 30px;
+
+}
