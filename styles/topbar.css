@@ -1,0 +1,198 @@
+.header {
+  height: 75px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background-color: rgb(0, 0, 0);
+
+  box-shadow: 0 0 12px rgb(36, 36, 36, 0.5);
+}
+
+.left-section {
+  margin-left: 20px;
+  display: flex;
+  flex: 1fr;
+  align-items: center;
+
+}
+
+.brand-logo {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 0;
+}
+
+
+.middle-section {
+  flex: 1fr;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.brand-name {
+  height: 30px;
+  margin-top: 20px;
+}
+
+.right-section {
+  width: 80px;
+  margin-right: 20px;
+  display: grid;
+  align-items: center;
+  place-items: center;
+
+
+}
+
+.menu-button {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+
+}
+
+
+
+      
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 70px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.633); /* Fallback color */
+
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  margin-left: 400px;
+  margin-right: 400px;
+
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 15px;
+  border-color: red;
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about-us {
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 20px;
+  font-weight: 300 ;
+}
+
+.about-us-explore {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-us-brand {
+  color: red;
+
+}
+
+
+@media screen and (max-width: 1440px) {
+
+  .brand-logo {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 0;
+    margin-left: -1vw;
+    margin-top: 0;
+  }
+  
+  
+  .middle-section {
+    margin-left: 1vw;
+  }
+  
+  .brand-name {
+    height: 49px;
+    margin-top: 10px;
+  }
+  
+  .right-section {
+    width: 80px;
+    margin-right: 27vw;
+    margin-top: 0;
+  }
+  
+  .menu-button {
+    font-size: 17px;
+  }
+
+  .modal {
+    padding-top: 70px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+  }
+
+  .modal-content {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  
+    padding: 20px;
+  }
+
+  .close {
+    font-size: 40px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .about-us {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    line-height: 40px;
+    font-size: 30px;
+    text-align:justify;
+  }
+  
+  .about-us-explore {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
