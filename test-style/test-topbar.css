@@ -1,0 +1,123 @@
+.header {
+  height: 5vh;
+  border-width: 1px;
+  border-style: solid;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+
+}
+
+.left-section {
+  width: 9vw;
+  background-color: black;
+  margin-top: 5px;
+}
+
+.brand-logo {
+  width: 100%;
+}
+
+.middle-section {
+  width: 35vw;
+  background-color: black;
+  margin-left: 4vw;
+}
+
+.brand-name {
+  width: 100%;
+}
+
+.right-section {
+  width: 15vw;
+  background-color: black;
+}
+
+.menu-button {
+  width: 100%;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-button {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.menu-button:focus {
+  background-color: red;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 4vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.633); /* Fallback color */
+
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align:justify;
+
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: red;
+
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.about-us {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  line-height: 19px;
+  font-weight: 300 ;
+}
+
+.about-us-explore {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.about-us-brand {
+  color: red;
+}
+
+
