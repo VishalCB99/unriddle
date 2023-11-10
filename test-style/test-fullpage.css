@@ -15,7 +15,7 @@ body {
 .element-one {
   display: grid;
   background-color: red;
-  height: 210px;
+  height: 220px;
   position: relative;
 }
 
