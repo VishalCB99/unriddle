@@ -32,7 +32,7 @@ body {
   padding: 14px;
   line-height: 22px;
   font-size: 15px;
-  transform: translate(0, 30px);
+  transform: translate(0, 5%);
 }
 
 .tagline-author {
